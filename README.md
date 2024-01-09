@@ -29,12 +29,12 @@ To set up and view this project locally, follow these simple steps:
 *Caption: Overview of the project's main webpage.*
 ### Console Output
 ![Storage data](https://github.com/RaphaGil/Planner-App/assets/128820385/6dde3faa-6227-4e36-9639-a750e3343b6f)
-*Caption: Detailed view of the storage, presenting the user input about his planner for that day.*
+*Caption: Detailed view of the storage, presenting the user input about his plan for that day.*
 
 
 ## Usage
 - JavaScript is employed to dynamically display content or sections based on user interactions or navigation, providing a more interactive and user-friendly experience.
--JQuery, a JavaScript library, is utilized to streamline and expedite DOM manipulation, event handling, and simplifying complex tasks, contributing to a more efficient and concise codebase for interactive web elements.
+- JQuery, a JavaScript library, is utilized to streamline and expedite DOM manipulation, event handling, and simplifying complex tasks, contributing to a more efficient and concise codebase for interactive web elements.
 
 
 ## Features
@@ -70,6 +70,6 @@ If you're also on the journey of learning web development and wish to contribute
 ## License
 This project is licensed under the MIT License. The MIT License is an open-source license widely used for software projects. It is known for its permissive nature, allowing users to freely use, modify, distribute, and sublicense the software without significant legal restrictions.
 
-[Raphaela Gil_Planner App]() - Raphaela Gil 
+[Raphaela Gil_Planner App](https://raphagil.github.io/Planner-App/) - Raphaela Gil 
 ## Contact Information
 If you're interested in sharing ideas, experiences, or collaborating on projects, please feel free to get in touch via email at raphaela.gil@yahoo.com or [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/raphaela-do-amaral-gil-0a9bb945/ ). You can also check my github profile at [![RaphaGil](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/RaphaGil).
