@@ -34,9 +34,8 @@ function generateSequentialTime() {
     }
   });
 }
-generateSequentialTime();
 
-//Retrieve the data and print it in the text area
+generateSequentialTime();
 $(document).ready(function () {
   $(".textarea").each(function (index) {
     const savedText = localStorage.getItem(`textareaContent_${index}`);
@@ -50,7 +49,16 @@ $(document).ready(function () {
 
     const index = $(".saveBtn").index(this);
     const message = $(".textarea").eq(index).val();
-
     localStorage.setItem(`textareaContent_${index}`, message);
+
+    const messageDisplay = $(".message");
+    messageDisplay.text('Appointment added to the localstorage ✓');
+    messageDisplay.addClass('text');
+
+    // Display the message for 3 seconds
+    messageDisplay.fadeIn();
+    setTimeout(function() {
+      messageDisplay.fadeOut();
+    }, 3000);
   });
 });
