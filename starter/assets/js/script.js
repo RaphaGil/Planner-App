@@ -36,6 +36,9 @@ function generateSequentialTime() {
 }
 
 generateSequentialTime();
+
+
+
 $(document).ready(function () {
   $(".textarea").each(function (index) {
     const savedText = localStorage.getItem(`textareaContent_${index}`);
@@ -52,8 +55,12 @@ $(document).ready(function () {
     localStorage.setItem(`textareaContent_${index}`, message);
 
     const messageDisplay = $(".message");
+
+    if(message){
     messageDisplay.text('Appointment added to the localstorage ✓');
-    messageDisplay.addClass('text');
+    } else{
+      messageDisplay.text('You havent added any information');
+    }
 
     // Display the message for 3 seconds
     messageDisplay.fadeIn();
@@ -62,3 +69,4 @@ $(document).ready(function () {
     }, 3000);
   });
 });
+
